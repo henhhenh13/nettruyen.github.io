@@ -1,0 +1,1819 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./assets/css/resset.css">
+    <link rel="stylesheet" href="./assets/css/base.css">
+    <link rel="stylesheet" href="./assets/css/grid.css">
+    <link rel="stylesheet" href="./assets/library/fontawesome/css/all.min.css">
+    <link rel="stylesheet" href="./assets/css/main.css">
+    <link rel="stylesheet" href="./assets/css/reponsive.css">
+</head>
+
+<body>
+    <div class="app">
+        <header>
+            <div class="header__top">
+                <div class="header-top__container app-container flex">
+                    <a href="#" class="header-top__logo">
+                        <img src="./assets/img/logo.png" class="header-top__img">
+                    </a>
+                    <div class="header-top__search flex hide-on-moblie">
+                        <input type="text" class="search--input" placeholder="Tìm kiếm...">
+                        <button type="submit" class="search--submit"><i class="fas fa-search"></i></button>
+                    </div>
+                    <div class="header-top__notification-container">
+                        <label for="check-coment">
+                            <i class="header-top__notification fas fa-comment"></i>
+                        </label>
+                        <input type="checkbox" id="check-coment">
+                        <div class="notification">
+                            <a href="#">Thông báo</a>
+                            <div class="notification__content">
+                                <p class="content">Vui long đăng nhập để nhận thông báo</p>
+                            </div>
+                        </div>
+                        </i>
+                    </div>
+                    <div class="header-top__form hide-on-moblie-tablet">
+                        <a href="#" class="header-top__login">Đăng nhập</a>
+                        /
+                        <a href="#" class="header-top__singup">Đăng ký</a>
+                    </div>
+                    <div class="header-top-mobile__bars">
+                        <i class="fas fa-search"></i>
+                        <i class="fas fa-bars on-nav-mobile"></i>
+                    </div>
+                </div>
+            </div>
+
+            <div class="header__bottom hide-on-moblie">
+                <div class="header-bottom__container app-container">
+                    <ul class="header-bottom__category flex">
+                        <li class="header-bottom__item">
+                            <a href="#" class="header-bottom__link active"><i class="fas fa-home"></i></a>
+                        </li>
+                        <li class="header-bottom__item">
+                            <a href="#" class="header-bottom__link">hot</a>
+                        </li>
+                        <li class="header-bottom__item">
+                            <a href="#" class="header-bottom__link">theo dõi</a>
+                        </li>
+                        <li class="header-bottom__item">
+                            <a href="#" class="header-bottom__link">lịch sử</a>
+                        </li>
+                        <li class="header-bottom__item">
+                            <a href="#" class="header-bottom__link list">thể loại <i class="fas fa-caret-down"></i></a>
+                            <ul class="header-bottom__downlist">
+                                <li class="list-style-none">
+                                    <div class="clearfix row">
+                                        <div class="c-6 m-6 l-3">
+                                            <ul class="nav">
+                                                <li class="list-style-none" data-title="Thể loại có nội dung về nấu ăn, ẩm thực">
+                                                    <a href="#" class="red">Tất cả</a>
+                                                </li>
+                                                <li class="list-style-none" data-title="Thể loại phiêu lưu, mạo hiểm, thường là hành trình của các nhân vật">
+                                                    <a href="#">Acdur</a>
+                                                </li>
+                                                <li class="list-style-none" data-title="Thể loại có nội dung về nấu ăn, ẩm thực">
+                                                    <a href="#">Ecchi</a>
+                                                </li>
+                                                <li class="list-style-none" data-title="Thể loại phiêu lưu, mạo hiểm, thường là hành trình của các nhân vật Thể loại phiêu lưu, mạo hiểm, thường là hành trình của các nhân vật">
+                                                    <a href="#">Manhwa</a>
+                                                </li>
+                                                <li class="list-style-none" data-title="Thể loại có nội dung về nấu ăn, ẩm thực">
+                                                    <a href="#">Manhhua</a>
+                                                </li>
+                                                <li class="list-style-none" data-title="Thể loại có nội dung về nấu ăn, ẩm thực">
+                                                    <a href="#">Hasaki</a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                        <div class="c-3">
+                                            <ul class="nav">
+                                                <li class="list-style-none" data-title="Thể loại có nội dung về nấu ăn, ẩm thực">
+                                                    <a href="#" class="red">Tất cả</a>
+                                                </li>
+                                                <li class="list-style-none" data-title="Thể loại có nội dung về nấu ăn, ẩm thực">
+                                                    <a href="#">Acdur</a>
+                                                </li>
+                                                <li class="list-style-none" data-title="Thể loại có nội dung về nấu ăn, ẩm thực">
+                                                    <a href="#">Ecchi</a>
+                                                </li>
+                                                <li class="list-style-none" data-title="Thể loại có nội dung về nấu ăn, ẩm thực">
+                                                    <a href="#">Manhwa</a>
+                                                </li>
+                                                <li class="list-style-none" data-title="Thể loại có nội dung về nấu ăn, ẩm thực">
+                                                    <a href="#">Manhhua</a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                        <div class="c-3">
+                                            <ul class="nav">
+                                                <li class="list-style-none" data-title="Thể loại có nội dung về nấu ăn, ẩm thực">
+                                                    <a href="#" class="red">Tất cả</a>
+                                                </li>
+                                                <li class="list-style-none" data-title="Thể loại có nội dung về nấu ăn, ẩm thực">
+                                                    <a href="#">Acdur</a>
+                                                </li>
+                                                <li class="list-style-none" data-title="Thể loại có nội dung về nấu ăn, ẩm thực">
+                                                    <a href="#">Ecchi</a>
+                                                </li>
+                                                <li class="list-style-none" data-title="Thể loại có nội dung về nấu ăn, ẩm thực">
+                                                    <a href="#">Manhwa</a>
+                                                </li>
+                                                <li class="list-style-none" data-title="Thể loại có nội dung về nấu ăn, ẩm thực">
+                                                    <a href="#">Manhhua</a>
+                                                </li>
+                                                <li class="list-style-none" data-title="Thể loại có nội dung về nấu ăn, ẩm thực">
+                                                    <a href="#">Hasaki</a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                        <div class="c-3">
+                                            <ul class="nav">
+                                                <li class="list-style-none" data-title="Thể loại có nội dung về nấu ăn, ẩm thực">
+                                                    <a href="#" class="red">Tất cả</a>
+                                                </li>
+                                                <li class="list-style-none" data-title="Thể loại có nội dung về nấu ăn, ẩm thực">
+                                                    <a href="#">Acdur</a>
+                                                </li>
+                                                <li class="list-style-none" data-title="Thể loại có nội dung về nấu ăn, ẩm thực">
+                                                    <a href="#">Ecchi</a>
+                                                </li>
+                                                <li class="list-style-none" data-title="Thể loại có nội dung về nấu ăn, ẩm thực">
+                                                    <a href="#">Manhwa</a>
+                                                </li>
+                                                <li class="list-style-none" data-title="Thể loại có nội dung về nấu ăn, ẩm thực">
+                                                    <a href="#">Manhhua</a>
+                                                </li>
+                                                <li class="list-style-none" data-title="Thể loại có nội dung về nấu ăn, ẩm thực">
+                                                    <a href="#">Hasaki</a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                        <div class="c-3">
+                                            <ul class="nav">
+                                                <li class="list-style-none" data-title="Thể loại có nội dung về nấu ăn, ẩm thực">
+                                                    <a href="#" class="red">Tất cả</a>
+                                                </li>
+                                                <li class="list-style-none" data-title="Thể loại có nội dung về nấu ăn, ẩm thực">
+                                                    <a href="#">Acdur</a>
+                                                </li>
+                                                <li class="list-style-none" data-title="Thể loại có nội dung về nấu ăn, ẩm thực">
+                                                    <a href="#">Ecchi</a>
+                                                </li>
+                                                <li class="list-style-none" data-title="Thể loại có nội dung về nấu ăn, ẩm thực">
+                                                    <a href="#">Manhwa</a>
+                                                </li>
+                                                <li class="list-style-none" data-title="Thể loại có nội dung về nấu ăn, ẩm thực">
+                                                    <a href="#">Manhhua</a>
+                                                </li>
+                                                <li class="list-style-none" data-title="Thể loại có nội dung về nấu ăn, ẩm thực">
+                                                    <a href="#">Hasaki</a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                        <div class="c-3">
+                                            <ul class="nav">
+                                                <li class="list-style-none" data-title="Thể loại có nội dung về nấu ăn, ẩm thực">
+                                                    <a href="#" class="red">Tất cả</a>
+                                                </li>
+                                                <li class="list-style-none" data-title="Thể loại có nội dung về nấu ăn, ẩm thực">
+                                                    <a href="#">Acdur</a>
+                                                </li>
+                                                <li class="list-style-none" data-title="Thể loại có nội dung về nấu ăn, ẩm thực">
+                                                    <a href="#">Ecchi</a>
+                                                </li>
+                                                <li class="list-style-none" data-title="Thể loại có nội dung về nấu ăn, ẩm thực">
+                                                    <a href="#">Manhwa</a>
+                                                </li>
+                                                <li class="list-style-none" data-title="Thể loại có nội dung về nấu ăn, ẩm thực">
+                                                    <a href="#">Manhhua</a>
+                                                </li>
+                                                <li class="list-style-none" data-title="Thể loại có nội dung về nấu ăn, ẩm thực">
+                                                    <a href="#">Hasaki</a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </li>
+                                <div class="header-bottom__info">
+                                    <p></p>
+                                </div>
+                            </ul>
+                        </li>
+                        <li class="header-bottom__item">
+                            <a href="#" class="header-bottom__link list">xếp hạng <i class="fas fa-sort"></i></a>
+                            <ul class="header-bottom__downlist list-rank">
+                                <a href="#"><i class="fas fa-eye"></i> Top all</a>
+                                <a href="#" class="red"><i class="fas fa-signal"></i> Truyện full</a>
+                                <a href="#"><i class="fas fa-eye"></i> Top tháng</a>
+                                <a href="#"><i class="far fa-thumbs-up"></i> Yêu thích</a>
+                                <a href="#"><i class="fas fa-eye"></i> Top tuần</a>
+                                <a href="#"><i class="fas fa-sync-alt"></i> Mới cập nhật</a>
+                                <a href="#"><i class="fas fa-eye"></i> Top ngày</a>
+                                <a href="#"><i class="fas fa-cloud-upload-alt"></i> Truyện mới</a>
+                            </ul>
+                        </li>
+                        <li class="header-bottom__item">
+                            <a href="#" class="header-bottom__link">tìm truyện</a>
+                        </li>
+                        <li class="header-bottom__item">
+                            <a href="#" class="header-bottom__link hide-on-moblie-tablet">con gái</a>
+                        </li>
+                        <li class="header-bottom__item">
+                            <a href="#" class="header-bottom__link hide-on-moblie-tablet">con trai</a>
+                        </li>
+                        <li class="header-bottom__item">
+                            <a href="#" class="header-bottom__link hide-on-moblie-tablet">group</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </header>
+        <div class="nav-mobile" id="nav-mobile">
+            <div class="header-top__search flex">
+                <input type="text" class="search--input" placeholder="Tìm kiếm...">
+                <button type="submit" class="search--submit"><i class="fas fa-search"></i></button>
+            </div>
+            <ul class="header-bottom__category nav-mobile__category">
+                <li class="header-bottom__item">
+                    <a href="#" class="header-bottom__link active">Trang chủ</i></a>
+                </li>
+                <li class="header-bottom__item">
+                    <a href="#" class="header-bottom__link">hot</a>
+                </li>
+                <li class="header-bottom__item">
+                    <a href="#" class="header-bottom__link">theo dõi</a>
+                </li>
+                <li class="header-bottom__item">
+                    <a href="#" class="header-bottom__link">lịch sử</a>
+                </li>
+                <li class="header-bottom__item">
+                    <a href="#"list" class="header-bottom__link">thể loại <i class="fas fa-caret-down"></i></a>
+                    <ul class="header-bottom__downlist header-bottom__downlist-mobile">
+                        <li class="list-style-none">
+                            <div class="clearfix row">
+                                <div class="c-6 m-6 l-3">
+                                    <ul class="nav">
+                                        <li class="list-style-none" data-title="Thể loại có nội dung về nấu ăn, ẩm thực">
+                                            <a href="#" class="red">Tất cả</a>
+                                        </li>
+                                        <li class="list-style-none" data-title="Thể loại phiêu lưu, mạo hiểm, thường là hành trình của các nhân vật">
+                                            <a href="#">Acdur</a>
+                                        </li>
+                                        <li class="list-style-none" data-title="Thể loại có nội dung về nấu ăn, ẩm thực">
+                                            <a href="#">Ecchi</a>
+                                        </li>
+                                        <li class="list-style-none" data-title="Thể loại phiêu lưu, mạo hiểm, thường là hành trình của các nhân vật Thể loại phiêu lưu, mạo hiểm, thường là hành trình của các nhân vật">
+                                            <a href="#">Manhwa</a>
+                                        </li>
+                                        <li class="list-style-none" data-title="Thể loại có nội dung về nấu ăn, ẩm thực">
+                                            <a href="#">Manhhua</a>
+                                        </li>
+                                        <li class="list-style-none" data-title="Thể loại có nội dung về nấu ăn, ẩm thực">
+                                            <a href="#">Hasaki</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="c-6 m-6 l-3">
+                                    <ul class="nav">
+                                        <li class="list-style-none" data-title="Thể loại có nội dung về nấu ăn, ẩm thực">
+                                            <a href="#" class="red">Tất cả</a>
+                                        </li>
+                                        <li class="list-style-none" data-title="Thể loại có nội dung về nấu ăn, ẩm thực">
+                                            <a href="#">Acdur</a>
+                                        </li>
+                                        <li class="list-style-none" data-title="Thể loại có nội dung về nấu ăn, ẩm thực">
+                                            <a href="#">Ecchi</a>
+                                        </li>
+                                        <li class="list-style-none" data-title="Thể loại có nội dung về nấu ăn, ẩm thực">
+                                            <a href="#">Manhwa</a>
+                                        </li>
+                                        <li class="list-style-none" data-title="Thể loại có nội dung về nấu ăn, ẩm thực">
+                                            <a href="#">Manhhua</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="c-6 m-6 l-3">
+                                    <ul class="nav">
+                                        <li class="list-style-none" data-title="Thể loại có nội dung về nấu ăn, ẩm thực">
+                                            <a href="#" class="red">Tất cả</a>
+                                        </li>
+                                        <li class="list-style-none" data-title="Thể loại có nội dung về nấu ăn, ẩm thực">
+                                            <a href="#">Acdur</a>
+                                        </li>
+                                        <li class="list-style-none" data-title="Thể loại có nội dung về nấu ăn, ẩm thực">
+                                            <a href="#">Ecchi</a>
+                                        </li>
+                                        <li class="list-style-none" data-title="Thể loại có nội dung về nấu ăn, ẩm thực">
+                                            <a href="#">Manhwa</a>
+                                        </li>
+                                        <li class="list-style-none" data-title="Thể loại có nội dung về nấu ăn, ẩm thực">
+                                            <a href="#">Manhhua</a>
+                                        </li>
+                                        <li class="list-style-none" data-title="Thể loại có nội dung về nấu ăn, ẩm thực">
+                                            <a href="#">Hasaki</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="c-6 m-6 l-3">
+                                    <ul class="nav">
+                                        <li class="list-style-none" data-title="Thể loại có nội dung về nấu ăn, ẩm thực">
+                                            <a href="#" class="red">Tất cả</a>
+                                        </li>
+                                        <li class="list-style-none" data-title="Thể loại có nội dung về nấu ăn, ẩm thực">
+                                            <a href="#">Acdur</a>
+                                        </li>
+                                        <li class="list-style-none" data-title="Thể loại có nội dung về nấu ăn, ẩm thực">
+                                            <a href="#">Ecchi</a>
+                                        </li>
+                                        <li class="list-style-none" data-title="Thể loại có nội dung về nấu ăn, ẩm thực">
+                                            <a href="#">Manhwa</a>
+                                        </li>
+                                        <li class="list-style-none" data-title="Thể loại có nội dung về nấu ăn, ẩm thực">
+                                            <a href="#">Manhhua</a>
+                                        </li>
+                                        <li class="list-style-none" data-title="Thể loại có nội dung về nấu ăn, ẩm thực">
+                                            <a href="#">Hasaki</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="c-6 m-6 l-3">
+                                    <ul class="nav">
+                                        <li class="list-style-none" data-title="Thể loại có nội dung về nấu ăn, ẩm thực">
+                                            <a href="#" class="red">Tất cả</a>
+                                        </li>
+                                        <li class="list-style-none" data-title="Thể loại có nội dung về nấu ăn, ẩm thực">
+                                            <a href="#">Acdur</a>
+                                        </li>
+                                        <li class="list-style-none" data-title="Thể loại có nội dung về nấu ăn, ẩm thực">
+                                            <a href="#">Ecchi</a>
+                                        </li>
+                                        <li class="list-style-none" data-title="Thể loại có nội dung về nấu ăn, ẩm thực">
+                                            <a href="#">Manhwa</a>
+                                        </li>
+                                        <li class="list-style-none" data-title="Thể loại có nội dung về nấu ăn, ẩm thực">
+                                            <a href="#">Manhhua</a>
+                                        </li>
+                                        <li class="list-style-none" data-title="Thể loại có nội dung về nấu ăn, ẩm thực">
+                                            <a href="#">Hasaki</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="c-6 m-6 l-3">
+                                    <ul class="nav">
+                                        <li class="list-style-none" data-title="Thể loại có nội dung về nấu ăn, ẩm thực">
+                                            <a href="#" class="red">Tất cả</a>
+                                        </li>
+                                        <li class="list-style-none" data-title="Thể loại có nội dung về nấu ăn, ẩm thực">
+                                            <a href="#">Acdur</a>
+                                        </li>
+                                        <li class="list-style-none" data-title="Thể loại có nội dung về nấu ăn, ẩm thực">
+                                            <a href="#">Ecchi</a>
+                                        </li>
+                                        <li class="list-style-none" data-title="Thể loại có nội dung về nấu ăn, ẩm thực">
+                                            <a href="#">Manhwa</a>
+                                        </li>
+                                        <li class="list-style-none" data-title="Thể loại có nội dung về nấu ăn, ẩm thực">
+                                            <a href="#">Manhhua</a>
+                                        </li>
+                                        <li class="list-style-none" data-title="Thể loại có nội dung về nấu ăn, ẩm thực">
+                                            <a href="#">Hasaki</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+                </li>
+                <li class="header-bottom__item">
+                    <a href="#"list" class="header-bottom__link">xếp hạng <i class="fas fa-sort"></i></a>
+                    <ul class="header-bottom__downlist list-rank header-bottom__downlist-mobile">
+                        <a href="#"><i class="fas fa-eye"></i> Top all</a>
+                        <a href="#" class="red"><i class="fas fa-signal"></i> Truyện full</a>
+                        <a href="#"><i class="fas fa-eye"></i> Top tháng</a>
+                        <a href="#"><i class="far fa-thumbs-up"></i> Yêu thích</a>
+                        <a href="#"><i class="fas fa-eye"></i> Top tuần</a>
+                        <a href="#"><i class="fas fa-sync-alt"></i> Mới cập nhật</a>
+                        <a href="#"><i class="fas fa-eye"></i> Top ngày</a>
+                        <a href="#"><i class="fas fa-cloud-upload-alt"></i> Truyện mới</a>
+                    </ul>
+                </li>
+                <li class="header-bottom__item">
+                    <a href="#" class="header-bottom__link">tìm truyện</a>
+                </li>
+                <li class="header-bottom__item">
+                    <a href="#" class="header-bottom__link">con gái</a>
+                </li>
+                <li class="header-bottom__item">
+                    <a href="#" class="header-bottom__link">con trai</a>
+                </li>
+                <li class="header-bottom__item">
+                    <a href="#" class="header-bottom__link last">group</a>
+                </li>
+            </ul>
+        </div>
+
+        <div class="wapper container">
+            <div class="wapper__top">
+                <h2 class="wapper-top__title">Truyện đề cử ></h2>
+                <div class="wapper-top__slides">
+                    <a href="#" class="wapper-slides__items l-2-4 m-3 c-6">
+                        <img src="./assets/img/item-1.jpg" class="wapper-slides__img">
+                        <div class="wapper-slides__box">
+                            <h3 class="wapper-slides__title margin-padding-0">Toàn chức pháp sư</h3>
+                            <div class="wapper-slides__miniBox flex">
+                                <h4 class="wapper-slides__chappter margin-padding-0">Chapter 24</h4>
+                                <h4 class="wapper-slides__house margin-padding-0"><i class="far fa-clock"></i>17 giờ trước</h4>
+                            </div>
+                        </div>
+                    </a>
+                    <a href="#" class="wapper-slides__items l-2-4 m-3 c-6">
+                        <img src="./assets/img/item-2.jpg" class="wapper-slides__img">
+                        <div class="wapper-slides__box">
+                            <h3 class="wapper-slides__title margin-padding-0">Toàn chức pháp sư</h3>
+                            <div class="wapper-slides__miniBox flex">
+                                <h4 class="wapper-slides__chappter margin-padding-0">Chapter 24</h4>
+                                <h4 class="wapper-slides__house margin-padding-0"><i class="far fa-clock"></i>17 giờ trước</h4>
+                            </div>
+                        </div>
+                    </a>
+                    <a href="#" class="wapper-slides__items l-2-4 m-3 c-6">
+                        <img src="./assets/img/item-3.jpg" class="wapper-slides__img">
+                        <div class="wapper-slides__box">
+                            <h3 class="wapper-slides__title margin-padding-0">Toàn chức pháp sư</h3>
+                            <div class="wapper-slides__miniBox flex">
+                                <h4 class="wapper-slides__chappter margin-padding-0">Chapter 24</h4>
+                                <h4 class="wapper-slides__house margin-padding-0"><i class="far fa-clock"></i>17 giờ trước</h4>
+                            </div>
+                        </div>
+                    </a>
+                    <a href="#" class="wapper-slides__items l-2-4 m-3 c-6">
+                        <img src="./assets/img/item-4.jpg" class="wapper-slides__img">
+                        <div class="wapper-slides__box">
+                            <h3 class="wapper-slides__title margin-padding-0">Toàn chức pháp sư</h3>
+                            <div class="wapper-slides__miniBox flex">
+                                <h4 class="wapper-slides__chappter margin-padding-0">Chapter 24</h4>
+                                <h4 class="wapper-slides__house margin-padding-0"><i class="far fa-clock"></i>17 giờ trước</h4>
+                            </div>
+                        </div>
+                    </a>
+                    <a href="#" class="wapper-slides__items l-2-4 m-3 c-6">
+                        <img src="./assets/img/item-5.jpg" class="wapper-slides__img">
+                        <div class="wapper-slides__box">
+                            <h3 class="wapper-slides__title margin-padding-0">Toàn chức pháp sư</h3>
+                            <div class="wapper-slides__miniBox flex">
+                                <h4 class="wapper-slides__chappter margin-padding-0">Chapter 24</h4>
+                                <h4 class="wapper-slides__house margin-padding-0"><i class="far fa-clock"></i>17 giờ trước</h4>
+                            </div>
+                        </div>
+                    </a>
+                    <a href="#" class="wapper-slides__items l-2-4 m-3 c-6">
+                        <img src="./assets/img/item-6.jpg" class="wapper-slides__img">
+                        <div class="wapper-slides__box">
+                            <h3 class="wapper-slides__title margin-padding-0">Toàn chức pháp sư</h3>
+                            <div class="wapper-slides__miniBox flex">
+                                <h4 class="wapper-slides__chappter margin-padding-0">Chapter 24</h4>
+                                <h4 class="wapper-slides__house margin-padding-0"><i class="far fa-clock"></i>17 giờ trước</h4>
+                            </div>
+                        </div>
+                    </a>
+                    <a href="#" class="wapper-slides__items l-2-4 m-3 c-6">
+                        <img src="./assets/img/item-7.jpg" class="wapper-slides__img">
+                        <div class="wapper-slides__box">
+                            <h3 class="wapper-slides__title margin-padding-0">Toàn chức pháp sư</h3>
+                            <div class="wapper-slides__miniBox flex">
+                                <h4 class="wapper-slides__chappter margin-padding-0">Chapter 24</h4>
+                                <h4 class="wapper-slides__house margin-padding-0"><i class="far fa-clock"></i>17 giờ trước</h4>
+                            </div>
+                        </div>
+                    </a>
+                    <a href="#" class="wapper-slides__items l-2-4 m-3 c-6">
+                        <img src="./assets/img/item-8.jpg" class="wapper-slides__img">
+                        <div class="wapper-slides__box">
+                            <h3 class="wapper-slides__title margin-padding-0">Toàn chức pháp sư</h3>
+                            <div class="wapper-slides__miniBox flex">
+                                <h4 class="wapper-slides__chappter margin-padding-0">Chapter 24</h4>
+                                <h4 class="wapper-slides__house margin-padding-0"><i class="far fa-clock"></i>17 giờ trước</h4>
+                            </div>
+                        </div>
+                    </a>
+                    <a href="#" class="wapper-slides__items l-2-4 m-3 c-6">
+                        <img src="./assets/img/item-9.jpg" class="wapper-slides__img">
+                        <div class="wapper-slides__box">
+                            <h3 class="wapper-slides__title margin-padding-0">Toàn chức pháp sư</h3>
+                            <div class="wapper-slides__miniBox flex">
+                                <h4 class="wapper-slides__chappter margin-padding-0">Chapter 24</h4>
+                                <h4 class="wapper-slides__house margin-padding-0"><i class="far fa-clock"></i>17 giờ trước</h4>
+                            </div>
+                        </div>
+                    </a>
+                    <a href="#" class="wapper-slides__items l-2-4 m-3 c-6">
+                        <img src="./assets/img/item-10.jpg" class="wapper-slides__img">
+                        <div class="wapper-slides__box">
+                            <h3 class="wapper-slides__title margin-padding-0">Toàn chức pháp sư</h3>
+                            <div class="wapper-slides__miniBox flex">
+                                <h4 class="wapper-slides__chappter margin-padding-0">Chapter 24</h4>
+                                <h4 class="wapper-slides__house margin-padding-0"><i class="far fa-clock"></i>17 giờ trước</h4>
+                            </div>
+                        </div>
+                    </a>
+                    <a href="#" class="wapper-slides__items l-2-4 m-3 c-6">
+                        <img src="./assets/img/item-11.jpg" class="wapper-slides__img">
+                        <div class="wapper-slides__box">
+                            <h3 class="wapper-slides__title margin-padding-0">Toàn chức pháp sư</h3>
+                            <div class="wapper-slides__miniBox flex">
+                                <h4 class="wapper-slides__chappter margin-padding-0">Chapter 24</h4>
+                                <h4 class="wapper-slides__house margin-padding-0"><i class="far fa-clock"></i>17 giờ trước</h4>
+                            </div>
+                        </div>
+                    </a>
+                    <a href="#" class="wapper-slides__items l-2-4 m-3 c-6">
+                        <img src="./assets/img/item-12.jpg" class="wapper-slides__img">
+                        <div class="wapper-slides__box">
+                            <h3 class="wapper-slides__title margin-padding-0">Toàn chức pháp sư</h3>
+                            <div class="wapper-slides__miniBox flex">
+                                <h4 class="wapper-slides__chappter margin-padding-0">Chapter 24</h4>
+                                <h4 class="wapper-slides__house margin-padding-0"><i class="far fa-clock"></i>17 giờ trước</h4>
+                            </div>
+                        </div>
+                    </a>
+                    <a href="#" class="wapper-slides__items l-2-4 m-3 c-6">
+                        <img src="./assets/img/item-13.jpg" class="wapper-slides__img">
+                        <div class="wapper-slides__box">
+                            <h3 class="wapper-slides__title margin-padding-0">Toàn chức pháp sư</h3>
+                            <div class="wapper-slides__miniBox flex">
+                                <h4 class="wapper-slides__chappter margin-padding-0">Chapter 24</h4>
+                                <h4 class="wapper-slides__house margin-padding-0"><i class="far fa-clock"></i>17 giờ trước</h4>
+                            </div>
+                        </div>
+                    </a>
+                    <a href="#" class="wapper-slides__items l-2-4 m-3 c-6">
+                        <img src="./assets/img/item-14.jpg" class="wapper-slides__img">
+                        <div class="wapper-slides__box">
+                            <h3 class="wapper-slides__title margin-padding-0">Toàn chức pháp sư</h3>
+                            <div class="wapper-slides__miniBox flex">
+                                <h4 class="wapper-slides__chappter margin-padding-0">Chapter 24</h4>
+                                <h4 class="wapper-slides__house margin-padding-0"><i class="far fa-clock"></i>17 giờ trước</h4>
+                            </div>
+                        </div>
+                    </a>
+                    <a href="#" class="wapper-slides__items l-2-4 m-3 c-6">
+                        <img src="./assets/img/item-15.jpg" class="wapper-slides__img">
+                        <div class="wapper-slides__box">
+                            <h3 class="wapper-slides__title margin-padding-0">Toàn chức pháp sư</h3>
+                            <div class="wapper-slides__miniBox flex">
+                                <h4 class="wapper-slides__chappter margin-padding-0">Chapter 24</h4>
+                                <h4 class="wapper-slides__house margin-padding-0"><i class="far fa-clock"></i>17 giờ trước</h4>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <a class="wapper-top__left wapper-top__arrow"><i class="fas fa-chevron-left"></i></a>
+                <a class="wapper-top__right wapper-top__arrow"><i class="fas fa-chevron-right"></i></a>
+            </div>
+
+            <div class="wapper__body row no-gutters">
+                <div class="wapper-body__left l-8 m-12">
+                    <h2 class="wapper-body__title">Truyện mới cập nhật ></h2>
+                    <div class="wapper-body__left-row row no-gutters">
+                        <div class="body-left__items c-6 m-3 l-3">
+                            <div class="body-left__imgs">
+                                <img src="./assets/img/item-1.jpg" class="body-left__img">
+                                <div class="body-left__likes flex">
+                                    <p class="body-left__like"><i class="fas fa-eye"></i>7.161.734</p>
+                                    <p class="body-left__like"><i class="fas fa-comment"></i>1.458<i
+                                            class="fas fa-heart"></i></p>
+                                </div>
+                            </div>
+                            <div class="body-left__infos">
+                                <h3 class="body-infos__box-title">
+                                    <a href="#" class="body-infos__title">Nghịch chuyển tiên đồ</a>
+                                </h3>
+
+                                <div class="body-infos__about">
+                                    <div class="body-infos__about-items">
+                                        <h3 class="body-infos__title">Nghịch chuyển tiên đồ Nghịch chuyển tiên đồ Nghịch
+                                            chuyển tiên đồ Nghịch chuyển tiên đồ Nghịch chuyển tiên đồ Nghịch chuyển
+                                            tiên đồ Nghịch chuyển tiên đồ</h3>
+                                        <div class="body-infos__about-box flex">
+                                            <img src="./assets/img/item-1.jpg" class="body-left__img">
+                                            <div class="body-infos__about-box-info flex-1">
+                                                <p class="body-infos__about-box-info-text"><strong>Thể loại:
+                                                    </strong>Action, Live Action, Manhwa, manhhua</p>
+                                                <p class="body-infos__about-box-info-text"><strong>Thể loại:
+                                                    </strong>Action, Live Action, Manhwa, manhhua</p>
+                                                <p class="body-infos__about-box-info-text"><strong>Thể loại:
+                                                    </strong>Action, Live Action, Manhwa, manhhua</p>
+                                                <p class="body-infos__about-box-info-text"><strong>Thể loại:
+                                                    </strong>Action, Live Action, Manhwa, manhhua</p>
+                                                <p class="body-infos__about-box-info-text"><strong>Thể loại:
+                                                    </strong>Action, Live Action, Manhwa, manhhua</p>
+                                            </div>
+                                        </div>
+                                        <p class="body-infos__about-bottom">Áp đảo giới quý tộc,
+                                            pháp sư mạnh nhất từ ​​khu ổ chuột !! Ars vốn là một thằng ăn cắp v
+                                            ặt trong khu ổ chuột. Và được nhận nuôi để trở thành sát thủ. Ở tuổi
+                                            15, Ars được khuyên nên đi học để đủ tiêu chuẩn trở thành "Pháp sư". Vừa
+                                            bước vào cổng trường, là sự xuất hiện của những quý tộc có trình độ
+                                            không bằng một cái móng tay của Ars, người đã vượt qua kỳ kiểm tra đầu v
+                                            ào với khả năng vượt trội, bắt đầu một cuộc sống khác thường .Là học sinh
+                                            vào ban ngày và một sát thủ vào ban đêm !!</p>
+
+                                    </div>
+                                </div>
+
+                                <ul>
+                                    <li class="body-infos__chappter flex">
+                                        <p class="body-infos__chap flex-1">Chapter 123</p>
+                                        <p class="body-infos__timechap flex-1">7 phút trước</p>
+                                    </li>
+                                    <li class="body-infos__chappter flex">
+                                        <p class="body-infos__chap flex-1">Chapter 123</p>
+                                        <p class="body-infos__timechap flex-1">7 phút trước</p>
+                                    </li>
+                                    <li class="body-infos__chappter flex">
+                                        <p class="body-infos__chap flex-1">Chapter 123</p>
+                                        <p class="body-infos__timechap flex-1">7 phút trước</p>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="body-left__items c-6 m-3 l-3">
+                            <div class="body-left__imgs">
+                                <img src="./assets/img/item-2.jpg" class="body-left__img">
+                                <div class="body-left__likes flex">
+                                    <p class="body-left__like"><i class="fas fa-eye"></i>7.161.734</p>
+                                    <p class="body-left__like"><i class="fas fa-comment"></i>1.458<i
+                                            class="fas fa-heart"></i></p>
+                                </div>
+                            </div>
+                            <div class="body-left__infos">
+                                <h3 class="body-infos__box-title">
+                                    <a href="#" class="body-infos__title">Nghịch chuyển tiên đồ</a>
+                                </h3>
+                                <div class="body-infos__about">
+                                    <div class="body-infos__about-items">
+                                        <h3 class="body-infos__title">Nghịch chuyển tiên đồ Nghịch chuyển tiên đồ Nghịch
+                                            chuyển tiên đồ Nghịch chuyển tiên đồ Nghịch chuyển tiên đồ Nghịch chuyển
+                                            tiên đồ Nghịch chuyển tiên đồ</h3>
+                                        <div class="body-infos__about-box flex">
+                                            <img src="./assets/img/item-2.jpg" class="body-left__img">
+                                            <div class="body-infos__about-box-info flex-1">
+                                                <p class="body-infos__about-box-info-text"><strong>Thể loại:
+                                                    </strong>Action, Live Action, Manhwa, manhhua</p>
+                                                <p class="body-infos__about-box-info-text"><strong>Thể loại:
+                                                    </strong>Action, Live Action, Manhwa, manhhua</p>
+                                                <p class="body-infos__about-box-info-text"><strong>Thể loại:
+                                                    </strong>Action, Live Action, Manhwa, manhhua</p>
+                                                <p class="body-infos__about-box-info-text"><strong>Thể loại:
+                                                    </strong>Action, Live Action, Manhwa, manhhua</p>
+                                                <p class="body-infos__about-box-info-text"><strong>Thể loại:
+                                                    </strong>Action, Live Action, Manhwa, manhhua</p>
+                                            </div>
+                                        </div>
+                                        <p class="body-infos__about-bottom">Áp đảo giới quý tộc,
+                                            pháp sư mạnh nhất từ ​​khu ổ chuột !! Ars vốn là một thằng ăn cắp v
+                                            ặt trong khu ổ chuột. Và được nhận nuôi để trở thành sát thủ. Ở tuổi
+                                            15, Ars được khuyên nên đi học để đủ tiêu chuẩn trở thành "Pháp sư". Vừa
+                                            bước vào cổng trường, là sự xuất hiện của những quý tộc có trình độ
+                                            không bằng một cái móng tay của Ars, người đã vượt qua kỳ kiểm tra đầu v
+                                            ào với khả năng vượt trội, bắt đầu một cuộc sống khác thường .Là học sinh
+                                            vào ban ngày và một sát thủ vào ban đêm !!</p>
+
+                                    </div>
+                                </div>
+                                <ul>
+                                    <li class="body-infos__chappter flex">
+                                        <p class="body-infos__chap flex-1">Chapter 123</p>
+                                        <p class="body-infos__timechap flex-1">7 phút trước</p>
+                                    </li>
+                                    <li class="body-infos__chappter flex">
+                                        <p class="body-infos__chap flex-1">Chapter 123</p>
+                                        <p class="body-infos__timechap flex-1">7 phút trước</p>
+                                    </li>
+                                    <li class="body-infos__chappter flex">
+                                        <p class="body-infos__chap flex-1">Chapter 123</p>
+                                        <p class="body-infos__timechap flex-1">7 phút trước</p>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="body-left__items c-6 m-3 l-3">
+                            <div class="body-left__imgs">
+                                <img src="./assets/img/item-3.jpg" class="body-left__img">
+                                <div class="body-left__likes flex">
+                                    <p class="body-left__like"><i class="fas fa-eye"></i>7.161.734</p>
+                                    <p class="body-left__like"><i class="fas fa-comment"></i>1.458<i
+                                            class="fas fa-heart"></i></p>
+                                </div>
+                            </div>
+                            <div class="body-left__infos">
+                                <h3 class="body-infos__box-title">
+                                    <a href="#" class="body-infos__title">Nghịch chuyển tiên đồ</a>
+                                </h3>
+                                <div class="body-infos__about">
+                                    <div class="body-infos__about-items">
+                                        <h3 class="body-infos__title">Nghịch chuyển tiên đồ Nghịch chuyển tiên đồ Nghịch
+                                            chuyển tiên đồ Nghịch chuyển tiên đồ Nghịch chuyển tiên đồ Nghịch chuyển
+                                            tiên đồ Nghịch chuyển tiên đồ</h3>
+                                        <div class="body-infos__about-box flex">
+                                            <img src="./assets/img/item-3.jpg" class="body-left__img">
+                                            <div class="body-infos__about-box-info flex-1">
+                                                <p class="body-infos__about-box-info-text"><strong>Thể loại:
+                                                    </strong>Action, Live Action, Manhwa, manhhua</p>
+                                                <p class="body-infos__about-box-info-text"><strong>Thể loại:
+                                                    </strong>Action, Live Action, Manhwa, manhhua</p>
+                                                <p class="body-infos__about-box-info-text"><strong>Thể loại:
+                                                    </strong>Action, Live Action, Manhwa, manhhua</p>
+                                                <p class="body-infos__about-box-info-text"><strong>Thể loại:
+                                                    </strong>Action, Live Action, Manhwa, manhhua</p>
+                                                <p class="body-infos__about-box-info-text"><strong>Thể loại:
+                                                    </strong>Action, Live Action, Manhwa, manhhua</p>
+                                            </div>
+                                        </div>
+                                        <p class="body-infos__about-bottom">Áp đảo giới quý tộc,
+                                            pháp sư mạnh nhất từ ​​khu ổ chuột !! Ars vốn là một thằng ăn cắp v
+                                            ặt trong khu ổ chuột. Và được nhận nuôi để trở thành sát thủ. Ở tuổi
+                                            15, Ars được khuyên nên đi học để đủ tiêu chuẩn trở thành "Pháp sư". Vừa
+                                            bước vào cổng trường, là sự xuất hiện của những quý tộc có trình độ
+                                            không bằng một cái móng tay của Ars, người đã vượt qua kỳ kiểm tra đầu v
+                                            ào với khả năng vượt trội, bắt đầu một cuộc sống khác thường .Là học sinh
+                                            vào ban ngày và một sát thủ vào ban đêm !!</p>
+
+                                    </div>
+                                </div>
+                                <ul>
+                                    <li class="body-infos__chappter flex">
+                                        <p class="body-infos__chap flex-1">Chapter 123</p>
+                                        <p class="body-infos__timechap flex-1">7 phút trước</p>
+                                    </li>
+                                    <li class="body-infos__chappter flex">
+                                        <p class="body-infos__chap flex-1">Chapter 123</p>
+                                        <p class="body-infos__timechap flex-1">7 phút trước</p>
+                                    </li>
+                                    <li class="body-infos__chappter flex">
+                                        <p class="body-infos__chap flex-1">Chapter 123</p>
+                                        <p class="body-infos__timechap flex-1">7 phút trước</p>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="body-left__items c-6 m-3 l-3">
+                            <div class="body-left__imgs">
+                                <img src="./assets/img/item-4.jpg" class="body-left__img">
+                                <div class="body-left__likes flex">
+                                    <p class="body-left__like"><i class="fas fa-eye"></i>7.161.734</p>
+                                    <p class="body-left__like"><i class="fas fa-comment"></i>1.458<i
+                                            class="fas fa-heart"></i></p>
+                                </div>
+                            </div>
+                            <div class="body-left__infos">
+                                <h3 class="body-infos__box-title">
+                                    <a href="#" class="body-infos__title">Nghịch chuyển tiên đồ</a>
+                                </h3>
+                                <div class="body-infos__about">
+                                    <div class="body-infos__about-items">
+                                        <h3 class="body-infos__title">Nghịch chuyển tiên đồ Nghịch chuyển tiên đồ Nghịch
+                                            chuyển tiên đồ Nghịch chuyển tiên đồ Nghịch chuyển tiên đồ Nghịch chuyển
+                                            tiên đồ Nghịch chuyển tiên đồ</h3>
+                                        <div class="body-infos__about-box flex">
+                                            <img src="./assets/img/item-4.jpg" class="body-left__img">
+                                            <div class="body-infos__about-box-info flex-1">
+                                                <p class="body-infos__about-box-info-text"><strong>Thể loại:
+                                                    </strong>Action, Live Action, Manhwa, manhhua</p>
+                                                <p class="body-infos__about-box-info-text"><strong>Thể loại:
+                                                    </strong>Action, Live Action, Manhwa, manhhua</p>
+                                                <p class="body-infos__about-box-info-text"><strong>Thể loại:
+                                                    </strong>Action, Live Action, Manhwa, manhhua</p>
+                                                <p class="body-infos__about-box-info-text"><strong>Thể loại:
+                                                    </strong>Action, Live Action, Manhwa, manhhua</p>
+                                                <p class="body-infos__about-box-info-text"><strong>Thể loại:
+                                                    </strong>Action, Live Action, Manhwa, manhhua</p>
+                                            </div>
+                                        </div>
+                                        <p class="body-infos__about-bottom">Áp đảo giới quý tộc,
+                                            pháp sư mạnh nhất từ ​​khu ổ chuột !! Ars vốn là một thằng ăn cắp v
+                                            ặt trong khu ổ chuột. Và được nhận nuôi để trở thành sát thủ. Ở tuổi
+                                            15, Ars được khuyên nên đi học để đủ tiêu chuẩn trở thành "Pháp sư". Vừa
+                                            bước vào cổng trường, là sự xuất hiện của những quý tộc có trình độ
+                                            không bằng một cái móng tay của Ars, người đã vượt qua kỳ kiểm tra đầu v
+                                            ào với khả năng vượt trội, bắt đầu một cuộc sống khác thường .Là học sinh
+                                            vào ban ngày và một sát thủ vào ban đêm !!</p>
+
+                                    </div>
+                                </div>
+                                <ul>
+                                    <li class="body-infos__chappter flex">
+                                        <p class="body-infos__chap flex-1">Chapter 123</p>
+                                        <p class="body-infos__timechap flex-1">7 phút trước</p>
+                                    </li>
+                                    <li class="body-infos__chappter flex">
+                                        <p class="body-infos__chap flex-1">Chapter 123</p>
+                                        <p class="body-infos__timechap flex-1">7 phút trước</p>
+                                    </li>
+                                    <li class="body-infos__chappter flex">
+                                        <p class="body-infos__chap flex-1">Chapter 123</p>
+                                        <p class="body-infos__timechap flex-1">7 phút trước</p>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="body-left__items c-6 m-3 l-3">
+                            <div class="body-left__imgs">
+                                <img src="./assets/img/item-5.jpg" class="body-left__img">
+                                <div class="body-left__likes flex">
+                                    <p class="body-left__like"><i class="fas fa-eye"></i>7.161.734</p>
+                                    <p class="body-left__like"><i class="fas fa-comment"></i>1.458<i
+                                            class="fas fa-heart"></i></p>
+                                </div>
+                            </div>
+                            <div class="body-left__infos">
+                                <h3 class="body-infos__box-title">
+                                    <a href="#" class="body-infos__title">Nghịch chuyển tiên đồ</a>
+                                </h3>
+                                <div class="body-infos__about">
+                                    <div class="body-infos__about-items">
+                                        <h3 class="body-infos__title">Nghịch chuyển tiên đồ Nghịch chuyển tiên đồ Nghịch
+                                            chuyển tiên đồ Nghịch chuyển tiên đồ Nghịch chuyển tiên đồ Nghịch chuyển
+                                            tiên đồ Nghịch chuyển tiên đồ</h3>
+                                        <div class="body-infos__about-box flex">
+                                            <img src="./assets/img/item-5.jpg" class="body-left__img">
+                                            <div class="body-infos__about-box-info flex-1">
+                                                <p class="body-infos__about-box-info-text"><strong>Thể loại:
+                                                    </strong>Action, Live Action, Manhwa, manhhua</p>
+                                                <p class="body-infos__about-box-info-text"><strong>Thể loại:
+                                                    </strong>Action, Live Action, Manhwa, manhhua</p>
+                                                <p class="body-infos__about-box-info-text"><strong>Thể loại:
+                                                    </strong>Action, Live Action, Manhwa, manhhua</p>
+                                                <p class="body-infos__about-box-info-text"><strong>Thể loại:
+                                                    </strong>Action, Live Action, Manhwa, manhhua</p>
+                                                <p class="body-infos__about-box-info-text"><strong>Thể loại:
+                                                    </strong>Action, Live Action, Manhwa, manhhua</p>
+                                            </div>
+                                        </div>
+                                        <p class="body-infos__about-bottom">Áp đảo giới quý tộc,
+                                            pháp sư mạnh nhất từ ​​khu ổ chuột !! Ars vốn là một thằng ăn cắp v
+                                            ặt trong khu ổ chuột. Và được nhận nuôi để trở thành sát thủ. Ở tuổi
+                                            15, Ars được khuyên nên đi học để đủ tiêu chuẩn trở thành "Pháp sư". Vừa
+                                            bước vào cổng trường, là sự xuất hiện của những quý tộc có trình độ
+                                            không bằng một cái móng tay của Ars, người đã vượt qua kỳ kiểm tra đầu v
+                                            ào với khả năng vượt trội, bắt đầu một cuộc sống khác thường .Là học sinh
+                                            vào ban ngày và một sát thủ vào ban đêm !!</p>
+
+                                    </div>
+                                </div>
+                                <ul>
+                                    <li class="body-infos__chappter flex">
+                                        <p class="body-infos__chap flex-1">Chapter 123</p>
+                                        <p class="body-infos__timechap flex-1">7 phút trước</p>
+                                    </li>
+                                    <li class="body-infos__chappter flex">
+                                        <p class="body-infos__chap flex-1">Chapter 123</p>
+                                        <p class="body-infos__timechap flex-1">7 phút trước</p>
+                                    </li>
+                                    <li class="body-infos__chappter flex">
+                                        <p class="body-infos__chap flex-1">Chapter 123</p>
+                                        <p class="body-infos__timechap flex-1">7 phút trước</p>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="body-left__items c-6 m-3 l-3">
+                            <div class="body-left__imgs">
+                                <img src="./assets/img/item-6.jpg" class="body-left__img">
+                                <div class="body-left__likes flex">
+                                    <p class="body-left__like"><i class="fas fa-eye"></i>7.161.734</p>
+                                    <p class="body-left__like"><i class="fas fa-comment"></i>1.458<i
+                                            class="fas fa-heart"></i></p>
+                                </div>
+                            </div>
+                            <div class="body-left__infos">
+                                <h3 class="body-infos__box-title">
+                                    <a href="#" class="body-infos__title">Nghịch chuyển tiên đồ</a>
+                                </h3>
+                                <div class="body-infos__about">
+                                    <div class="body-infos__about-items">
+                                        <h3 class="body-infos__title">Nghịch chuyển tiên đồ Nghịch chuyển tiên đồ Nghịch
+                                            chuyển tiên đồ Nghịch chuyển tiên đồ Nghịch chuyển tiên đồ Nghịch chuyển
+                                            tiên đồ Nghịch chuyển tiên đồ</h3>
+                                        <div class="body-infos__about-box flex">
+                                            <img src="./assets/img/item-6.jpg" class="body-left__img">
+                                            <div class="body-infos__about-box-info flex-1">
+                                                <p class="body-infos__about-box-info-text"><strong>Thể loại:
+                                                    </strong>Action, Live Action, Manhwa, manhhua</p>
+                                                <p class="body-infos__about-box-info-text"><strong>Thể loại:
+                                                    </strong>Action, Live Action, Manhwa, manhhua</p>
+                                                <p class="body-infos__about-box-info-text"><strong>Thể loại:
+                                                    </strong>Action, Live Action, Manhwa, manhhua</p>
+                                                <p class="body-infos__about-box-info-text"><strong>Thể loại:
+                                                    </strong>Action, Live Action, Manhwa, manhhua</p>
+                                                <p class="body-infos__about-box-info-text"><strong>Thể loại:
+                                                    </strong>Action, Live Action, Manhwa, manhhua</p>
+                                            </div>
+                                        </div>
+                                        <p class="body-infos__about-bottom">Áp đảo giới quý tộc,
+                                            pháp sư mạnh nhất từ ​​khu ổ chuột !! Ars vốn là một thằng ăn cắp v
+                                            ặt trong khu ổ chuột. Và được nhận nuôi để trở thành sát thủ. Ở tuổi
+                                            15, Ars được khuyên nên đi học để đủ tiêu chuẩn trở thành "Pháp sư". Vừa
+                                            bước vào cổng trường, là sự xuất hiện của những quý tộc có trình độ
+                                            không bằng một cái móng tay của Ars, người đã vượt qua kỳ kiểm tra đầu v
+                                            ào với khả năng vượt trội, bắt đầu một cuộc sống khác thường .Là học sinh
+                                            vào ban ngày và một sát thủ vào ban đêm !!</p>
+
+                                    </div>
+                                </div>
+                                <ul>
+                                    <li class="body-infos__chappter flex">
+                                        <p class="body-infos__chap flex-1">Chapter 123</p>
+                                        <p class="body-infos__timechap flex-1">7 phút trước</p>
+                                    </li>
+                                    <li class="body-infos__chappter flex">
+                                        <p class="body-infos__chap flex-1">Chapter 123</p>
+                                        <p class="body-infos__timechap flex-1">7 phút trước</p>
+                                    </li>
+                                    <li class="body-infos__chappter flex">
+                                        <p class="body-infos__chap flex-1">Chapter 123</p>
+                                        <p class="body-infos__timechap flex-1">7 phút trước</p>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="body-left__items c-6 m-3 l-3">
+                            <div class="body-left__imgs">
+                                <img src="./assets/img/item-7.jpg" class="body-left__img">
+                                <div class="body-left__likes flex">
+                                    <p class="body-left__like"><i class="fas fa-eye"></i>7.161.734</p>
+                                    <p class="body-left__like"><i class="fas fa-comment"></i>1.458<i
+                                            class="fas fa-heart"></i></p>
+                                </div>
+                            </div>
+                            <div class="body-left__infos">
+                                <h3 class="body-infos__box-title">
+                                    <a href="#" class="body-infos__title">Nghịch chuyển tiên đồ</a>
+                                </h3>
+                                <div class="body-infos__about">
+                                    <div class="body-infos__about-items">
+                                        <h3 class="body-infos__title">Nghịch chuyển tiên đồ Nghịch chuyển tiên đồ Nghịch
+                                            chuyển tiên đồ Nghịch chuyển tiên đồ Nghịch chuyển tiên đồ Nghịch chuyển
+                                            tiên đồ Nghịch chuyển tiên đồ</h3>
+                                        <div class="body-infos__about-box flex">
+                                            <img src="./assets/img/item-7.jpg" class="body-left__img">
+                                            <div class="body-infos__about-box-info flex-1">
+                                                <p class="body-infos__about-box-info-text"><strong>Thể loại:
+                                                    </strong>Action, Live Action, Manhwa, manhhua</p>
+                                                <p class="body-infos__about-box-info-text"><strong>Thể loại:
+                                                    </strong>Action, Live Action, Manhwa, manhhua</p>
+                                                <p class="body-infos__about-box-info-text"><strong>Thể loại:
+                                                    </strong>Action, Live Action, Manhwa, manhhua</p>
+                                                <p class="body-infos__about-box-info-text"><strong>Thể loại:
+                                                    </strong>Action, Live Action, Manhwa, manhhua</p>
+                                                <p class="body-infos__about-box-info-text"><strong>Thể loại:
+                                                    </strong>Action, Live Action, Manhwa, manhhua</p>
+                                            </div>
+                                        </div>
+                                        <p class="body-infos__about-bottom">Áp đảo giới quý tộc,
+                                            pháp sư mạnh nhất từ ​​khu ổ chuột !! Ars vốn là một thằng ăn cắp v
+                                            ặt trong khu ổ chuột. Và được nhận nuôi để trở thành sát thủ. Ở tuổi
+                                            15, Ars được khuyên nên đi học để đủ tiêu chuẩn trở thành "Pháp sư". Vừa
+                                            bước vào cổng trường, là sự xuất hiện của những quý tộc có trình độ
+                                            không bằng một cái móng tay của Ars, người đã vượt qua kỳ kiểm tra đầu v
+                                            ào với khả năng vượt trội, bắt đầu một cuộc sống khác thường .Là học sinh
+                                            vào ban ngày và một sát thủ vào ban đêm !!</p>
+
+                                    </div>
+                                </div>
+                                <ul>
+                                    <li class="body-infos__chappter flex">
+                                        <p class="body-infos__chap flex-1">Chapter 123</p>
+                                        <p class="body-infos__timechap flex-1">7 phút trước</p>
+                                    </li>
+                                    <li class="body-infos__chappter flex">
+                                        <p class="body-infos__chap flex-1">Chapter 123</p>
+                                        <p class="body-infos__timechap flex-1">7 phút trước</p>
+                                    </li>
+                                    <li class="body-infos__chappter flex">
+                                        <p class="body-infos__chap flex-1">Chapter 123</p>
+                                        <p class="body-infos__timechap flex-1">7 phút trước</p>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="body-left__items c-6 m-3 l-3">
+                            <div class="body-left__imgs">
+                                <img src="./assets/img/item-8.jpg" class="body-left__img">
+                                <div class="body-left__likes flex">
+                                    <p class="body-left__like"><i class="fas fa-eye"></i>7.161.734</p>
+                                    <p class="body-left__like"><i class="fas fa-comment"></i>1.458<i
+                                            class="fas fa-heart"></i></p>
+                                </div>
+                            </div>
+                            <div class="body-left__infos">
+                                <h3 class="body-infos__box-title">
+                                    <a href="#" class="body-infos__title">Nghịch chuyển tiên đồ</a>
+                                </h3>
+                                <div class="body-infos__about">
+                                    <div class="body-infos__about-items">
+                                        <h3 class="body-infos__title">Nghịch chuyển tiên đồ Nghịch chuyển tiên đồ Nghịch
+                                            chuyển tiên đồ Nghịch chuyển tiên đồ Nghịch chuyển tiên đồ Nghịch chuyển
+                                            tiên đồ Nghịch chuyển tiên đồ</h3>
+                                        <div class="body-infos__about-box flex">
+                                            <img src="./assets/img/item-8.jpg" class="body-left__img">
+                                            <div class="body-infos__about-box-info flex-1">
+                                                <p class="body-infos__about-box-info-text"><strong>Thể loại:
+                                                    </strong>Action, Live Action, Manhwa, manhhua</p>
+                                                <p class="body-infos__about-box-info-text"><strong>Thể loại:
+                                                    </strong>Action, Live Action, Manhwa, manhhua</p>
+                                                <p class="body-infos__about-box-info-text"><strong>Thể loại:
+                                                    </strong>Action, Live Action, Manhwa, manhhua</p>
+                                                <p class="body-infos__about-box-info-text"><strong>Thể loại:
+                                                    </strong>Action, Live Action, Manhwa, manhhua</p>
+                                                <p class="body-infos__about-box-info-text"><strong>Thể loại:
+                                                    </strong>Action, Live Action, Manhwa, manhhua</p>
+                                            </div>
+                                        </div>
+                                        <p class="body-infos__about-bottom">Áp đảo giới quý tộc,
+                                            pháp sư mạnh nhất từ ​​khu ổ chuột !! Ars vốn là một thằng ăn cắp v
+                                            ặt trong khu ổ chuột. Và được nhận nuôi để trở thành sát thủ. Ở tuổi
+                                            15, Ars được khuyên nên đi học để đủ tiêu chuẩn trở thành "Pháp sư". Vừa
+                                            bước vào cổng trường, là sự xuất hiện của những quý tộc có trình độ
+                                            không bằng một cái móng tay của Ars, người đã vượt qua kỳ kiểm tra đầu v
+                                            ào với khả năng vượt trội, bắt đầu một cuộc sống khác thường .Là học sinh
+                                            vào ban ngày và một sát thủ vào ban đêm !!</p>
+
+                                    </div>
+                                </div>
+                                <ul>
+                                    <li class="body-infos__chappter flex">
+                                        <p class="body-infos__chap flex-1">Chapter 123</p>
+                                        <p class="body-infos__timechap flex-1">7 phút trước</p>
+                                    </li>
+                                    <li class="body-infos__chappter flex">
+                                        <p class="body-infos__chap flex-1">Chapter 123</p>
+                                        <p class="body-infos__timechap flex-1">7 phút trước</p>
+                                    </li>
+                                    <li class="body-infos__chappter flex">
+                                        <p class="body-infos__chap flex-1">Chapter 123</p>
+                                        <p class="body-infos__timechap flex-1">7 phút trước</p>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="body-left__items c-6 m-3 l-3">
+                            <div class="body-left__imgs">
+                                <img src="./assets/img/item-9.jpg" class="body-left__img">
+                                <div class="body-left__likes flex">
+                                    <p class="body-left__like"><i class="fas fa-eye"></i>7.161.734</p>
+                                    <p class="body-left__like"><i class="fas fa-comment"></i>1.458<i
+                                            class="fas fa-heart"></i></p>
+                                </div>
+                            </div>
+                            <div class="body-left__infos">
+                                <h3 class="body-infos__box-title">
+                                    <a href="#" class="body-infos__title">Nghịch chuyển tiên đồ</a>
+                                </h3>
+                                <div class="body-infos__about">
+                                    <div class="body-infos__about-items">
+                                        <h3 class="body-infos__title">Nghịch chuyển tiên đồ Nghịch chuyển tiên đồ Nghịch
+                                            chuyển tiên đồ Nghịch chuyển tiên đồ Nghịch chuyển tiên đồ Nghịch chuyển
+                                            tiên đồ Nghịch chuyển tiên đồ</h3>
+                                        <div class="body-infos__about-box flex">
+                                            <img src="./assets/img/item-9.jpg" class="body-left__img">
+                                            <div class="body-infos__about-box-info flex-1">
+                                                <p class="body-infos__about-box-info-text"><strong>Thể loại:
+                                                    </strong>Action, Live Action, Manhwa, manhhua</p>
+                                                <p class="body-infos__about-box-info-text"><strong>Thể loại:
+                                                    </strong>Action, Live Action, Manhwa, manhhua</p>
+                                                <p class="body-infos__about-box-info-text"><strong>Thể loại:
+                                                    </strong>Action, Live Action, Manhwa, manhhua</p>
+                                                <p class="body-infos__about-box-info-text"><strong>Thể loại:
+                                                    </strong>Action, Live Action, Manhwa, manhhua</p>
+                                                <p class="body-infos__about-box-info-text"><strong>Thể loại:
+                                                    </strong>Action, Live Action, Manhwa, manhhua</p>
+                                            </div>
+                                        </div>
+                                        <p class="body-infos__about-bottom">Áp đảo giới quý tộc,
+                                            pháp sư mạnh nhất từ ​​khu ổ chuột !! Ars vốn là một thằng ăn cắp v
+                                            ặt trong khu ổ chuột. Và được nhận nuôi để trở thành sát thủ. Ở tuổi
+                                            15, Ars được khuyên nên đi học để đủ tiêu chuẩn trở thành "Pháp sư". Vừa
+                                            bước vào cổng trường, là sự xuất hiện của những quý tộc có trình độ
+                                            không bằng một cái móng tay của Ars, người đã vượt qua kỳ kiểm tra đầu v
+                                            ào với khả năng vượt trội, bắt đầu một cuộc sống khác thường .Là học sinh
+                                            vào ban ngày và một sát thủ vào ban đêm !!</p>
+
+                                    </div>
+                                </div>
+                                <ul>
+                                    <li class="body-infos__chappter flex">
+                                        <p class="body-infos__chap flex-1">Chapter 123</p>
+                                        <p class="body-infos__timechap flex-1">7 phút trước</p>
+                                    </li>
+                                    <li class="body-infos__chappter flex">
+                                        <p class="body-infos__chap flex-1">Chapter 123</p>
+                                        <p class="body-infos__timechap flex-1">7 phút trước</p>
+                                    </li>
+                                    <li class="body-infos__chappter flex">
+                                        <p class="body-infos__chap flex-1">Chapter 123</p>
+                                        <p class="body-infos__timechap flex-1">7 phút trước</p>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+
+                        <div class="body-left__items c-6 m-3 l-3">
+                            <div class="body-left__imgs">
+                                <img src="./assets/img/item-10.jpg" class="body-left__img">
+                                <div class="body-left__likes flex">
+                                    <p class="body-left__like"><i class="fas fa-eye"></i>7.161.734</p>
+                                    <p class="body-left__like"><i class="fas fa-comment"></i>1.458<i
+                                            class="fas fa-heart"></i></p>
+                                </div>
+                            </div>
+                            <div class="body-left__infos">
+                                <h3 class="body-infos__box-title">
+                                    <a href="#" class="body-infos__title">Nghịch chuyển tiên đồ</a>
+                                </h3>
+                                <div class="body-infos__about">
+                                    <div class="body-infos__about-items">
+                                        <h3 class="body-infos__title">Nghịch chuyển tiên đồ Nghịch chuyển tiên đồ Nghịch
+                                            chuyển tiên đồ Nghịch chuyển tiên đồ Nghịch chuyển tiên đồ Nghịch chuyển
+                                            tiên đồ Nghịch chuyển tiên đồ</h3>
+                                        <div class="body-infos__about-box flex">
+                                            <img src="./assets/img/item-10.jpg" class="body-left__img">
+                                            <div class="body-infos__about-box-info flex-1">
+                                                <p class="body-infos__about-box-info-text"><strong>Thể loại:
+                                                    </strong>Action, Live Action, Manhwa, manhhua</p>
+                                                <p class="body-infos__about-box-info-text"><strong>Thể loại:
+                                                    </strong>Action, Live Action, Manhwa, manhhua</p>
+                                                <p class="body-infos__about-box-info-text"><strong>Thể loại:
+                                                    </strong>Action, Live Action, Manhwa, manhhua</p>
+                                                <p class="body-infos__about-box-info-text"><strong>Thể loại:
+                                                    </strong>Action, Live Action, Manhwa, manhhua</p>
+                                                <p class="body-infos__about-box-info-text"><strong>Thể loại:
+                                                    </strong>Action, Live Action, Manhwa, manhhua</p>
+                                            </div>
+                                        </div>
+                                        <p class="body-infos__about-bottom">Áp đảo giới quý tộc,
+                                            pháp sư mạnh nhất từ ​​khu ổ chuột !! Ars vốn là một thằng ăn cắp v
+                                            ặt trong khu ổ chuột. Và được nhận nuôi để trở thành sát thủ. Ở tuổi
+                                            15, Ars được khuyên nên đi học để đủ tiêu chuẩn trở thành "Pháp sư". Vừa
+                                            bước vào cổng trường, là sự xuất hiện của những quý tộc có trình độ
+                                            không bằng một cái móng tay của Ars, người đã vượt qua kỳ kiểm tra đầu v
+                                            ào với khả năng vượt trội, bắt đầu một cuộc sống khác thường .Là học sinh
+                                            vào ban ngày và một sát thủ vào ban đêm !!</p>
+
+                                    </div>
+                                </div>
+                                <ul>
+                                    <li class="body-infos__chappter flex">
+                                        <p class="body-infos__chap flex-1">Chapter 123</p>
+                                        <p class="body-infos__timechap flex-1">7 phút trước</p>
+                                    </li>
+                                    <li class="body-infos__chappter flex">
+                                        <p class="body-infos__chap flex-1">Chapter 123</p>
+                                        <p class="body-infos__timechap flex-1">7 phút trước</p>
+                                    </li>
+                                    <li class="body-infos__chappter flex">
+                                        <p class="body-infos__chap flex-1">Chapter 123</p>
+                                        <p class="body-infos__timechap flex-1">7 phút trước</p>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="body-left__items c-6 m-3 l-3">
+                            <div class="body-left__imgs">
+                                <img src="./assets/img/item-11.jpg" class="body-left__img">
+                                <div class="body-left__likes flex">
+                                    <p class="body-left__like"><i class="fas fa-eye"></i>7.161.734</p>
+                                    <p class="body-left__like"><i class="fas fa-comment"></i>1.458<i
+                                            class="fas fa-heart"></i></p>
+                                </div>
+                            </div>
+                            <div class="body-left__infos">
+                                <h3 class="body-infos__box-title">
+                                    <a href="#" class="body-infos__title">Nghịch chuyển tiên đồ</a>
+                                </h3>
+                                <div class="body-infos__about">
+                                    <div class="body-infos__about-items">
+                                        <h3 class="body-infos__title">Nghịch chuyển tiên đồ Nghịch chuyển tiên đồ Nghịch
+                                            chuyển tiên đồ Nghịch chuyển tiên đồ Nghịch chuyển tiên đồ Nghịch chuyển
+                                            tiên đồ Nghịch chuyển tiên đồ</h3>
+                                        <div class="body-infos__about-box flex">
+                                            <img src="./assets/img/item-11.jpg" class="body-left__img">
+                                            <div class="body-infos__about-box-info flex-1">
+                                                <p class="body-infos__about-box-info-text"><strong>Thể loại:
+                                                    </strong>Action, Live Action, Manhwa, manhhua</p>
+                                                <p class="body-infos__about-box-info-text"><strong>Thể loại:
+                                                    </strong>Action, Live Action, Manhwa, manhhua</p>
+                                                <p class="body-infos__about-box-info-text"><strong>Thể loại:
+                                                    </strong>Action, Live Action, Manhwa, manhhua</p>
+                                                <p class="body-infos__about-box-info-text"><strong>Thể loại:
+                                                    </strong>Action, Live Action, Manhwa, manhhua</p>
+                                                <p class="body-infos__about-box-info-text"><strong>Thể loại:
+                                                    </strong>Action, Live Action, Manhwa, manhhua</p>
+                                            </div>
+                                        </div>
+                                        <p class="body-infos__about-bottom">Áp đảo giới quý tộc,
+                                            pháp sư mạnh nhất từ ​​khu ổ chuột !! Ars vốn là một thằng ăn cắp v
+                                            ặt trong khu ổ chuột. Và được nhận nuôi để trở thành sát thủ. Ở tuổi
+                                            15, Ars được khuyên nên đi học để đủ tiêu chuẩn trở thành "Pháp sư". Vừa
+                                            bước vào cổng trường, là sự xuất hiện của những quý tộc có trình độ
+                                            không bằng một cái móng tay của Ars, người đã vượt qua kỳ kiểm tra đầu v
+                                            ào với khả năng vượt trội, bắt đầu một cuộc sống khác thường .Là học sinh
+                                            vào ban ngày và một sát thủ vào ban đêm !!</p>
+
+                                    </div>
+                                </div>
+                                <ul>
+                                    <li class="body-infos__chappter flex">
+                                        <p class="body-infos__chap flex-1">Chapter 123</p>
+                                        <p class="body-infos__timechap flex-1">7 phút trước</p>
+                                    </li>
+                                    <li class="body-infos__chappter flex">
+                                        <p class="body-infos__chap flex-1">Chapter 123</p>
+                                        <p class="body-infos__timechap flex-1">7 phút trước</p>
+                                    </li>
+                                    <li class="body-infos__chappter flex">
+                                        <p class="body-infos__chap flex-1">Chapter 123</p>
+                                        <p class="body-infos__timechap flex-1">7 phút trước</p>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="body-left__items c-6 m-3 l-3">
+                            <div class="body-left__imgs">
+                                <img src="./assets/img/item-12.jpg" class="body-left__img">
+                                <div class="body-left__likes flex">
+                                    <p class="body-left__like"><i class="fas fa-eye"></i>7.161.734</p>
+                                    <p class="body-left__like"><i class="fas fa-comment"></i>1.458<i
+                                            class="fas fa-heart"></i></p>
+                                </div>
+                            </div>
+                            <div class="body-left__infos">
+                                <h3 class="body-infos__box-title">
+                                    <a href="#" class="body-infos__title">Nghịch chuyển tiên đồ</a>
+                                </h3>
+                                <div class="body-infos__about">
+                                    <div class="body-infos__about-items">
+                                        <h3 class="body-infos__title">Nghịch chuyển tiên đồ Nghịch chuyển tiên đồ Nghịch
+                                            chuyển tiên đồ Nghịch chuyển tiên đồ Nghịch chuyển tiên đồ Nghịch chuyển
+                                            tiên đồ Nghịch chuyển tiên đồ</h3>
+                                        <div class="body-infos__about-box flex">
+                                            <img src="./assets/img/item-12.jpg" class="body-left__img">
+                                            <div class="body-infos__about-box-info flex-1">
+                                                <p class="body-infos__about-box-info-text"><strong>Thể loại:
+                                                    </strong>Action, Live Action, Manhwa, manhhua</p>
+                                                <p class="body-infos__about-box-info-text"><strong>Thể loại:
+                                                    </strong>Action, Live Action, Manhwa, manhhua</p>
+                                                <p class="body-infos__about-box-info-text"><strong>Thể loại:
+                                                    </strong>Action, Live Action, Manhwa, manhhua</p>
+                                                <p class="body-infos__about-box-info-text"><strong>Thể loại:
+                                                    </strong>Action, Live Action, Manhwa, manhhua</p>
+                                                <p class="body-infos__about-box-info-text"><strong>Thể loại:
+                                                    </strong>Action, Live Action, Manhwa, manhhua</p>
+                                            </div>
+                                        </div>
+                                        <p class="body-infos__about-bottom">Áp đảo giới quý tộc,
+                                            pháp sư mạnh nhất từ ​​khu ổ chuột !! Ars vốn là một thằng ăn cắp v
+                                            ặt trong khu ổ chuột. Và được nhận nuôi để trở thành sát thủ. Ở tuổi
+                                            15, Ars được khuyên nên đi học để đủ tiêu chuẩn trở thành "Pháp sư". Vừa
+                                            bước vào cổng trường, là sự xuất hiện của những quý tộc có trình độ
+                                            không bằng một cái móng tay của Ars, người đã vượt qua kỳ kiểm tra đầu v
+                                            ào với khả năng vượt trội, bắt đầu một cuộc sống khác thường .Là học sinh
+                                            vào ban ngày và một sát thủ vào ban đêm !!</p>
+
+                                    </div>
+                                </div>
+                                <ul>
+                                    <li class="body-infos__chappter flex">
+                                        <p class="body-infos__chap flex-1">Chapter 123</p>
+                                        <p class="body-infos__timechap flex-1">7 phút trước</p>
+                                    </li>
+                                    <li class="body-infos__chappter flex">
+                                        <p class="body-infos__chap flex-1">Chapter 123</p>
+                                        <p class="body-infos__timechap flex-1">7 phút trước</p>
+                                    </li>
+                                    <li class="body-infos__chappter flex">
+                                        <p class="body-infos__chap flex-1">Chapter 123</p>
+                                        <p class="body-infos__timechap flex-1">7 phút trước</p>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="body-left__items c-6 m-3 l-3">
+                            <div class="body-left__imgs">
+                                <img src="./assets/img/item-13.jpg" class="body-left__img">
+                                <div class="body-left__likes flex">
+                                    <p class="body-left__like"><i class="fas fa-eye"></i>7.161.734</p>
+                                    <p class="body-left__like"><i class="fas fa-comment"></i>1.458<i
+                                            class="fas fa-heart"></i></p>
+                                </div>
+                            </div>
+                            <div class="body-left__infos">
+                                <h3 class="body-infos__box-title">
+                                    <a href="#" class="body-infos__title">Nghịch chuyển tiên đồ</a>
+                                </h3>
+                                <div class="body-infos__about">
+                                    <div class="body-infos__about-items">
+                                        <h3 class="body-infos__title">Nghịch chuyển tiên đồ Nghịch chuyển tiên đồ Nghịch
+                                            chuyển tiên đồ Nghịch chuyển tiên đồ Nghịch chuyển tiên đồ Nghịch chuyển
+                                            tiên đồ Nghịch chuyển tiên đồ</h3>
+                                        <div class="body-infos__about-box flex">
+                                            <img src="./assets/img/item-13.jpg" class="body-left__img">
+                                            <div class="body-infos__about-box-info flex-1">
+                                                <p class="body-infos__about-box-info-text"><strong>Thể loại:
+                                                    </strong>Action, Live Action, Manhwa, manhhua</p>
+                                                <p class="body-infos__about-box-info-text"><strong>Thể loại:
+                                                    </strong>Action, Live Action, Manhwa, manhhua</p>
+                                                <p class="body-infos__about-box-info-text"><strong>Thể loại:
+                                                    </strong>Action, Live Action, Manhwa, manhhua</p>
+                                                <p class="body-infos__about-box-info-text"><strong>Thể loại:
+                                                    </strong>Action, Live Action, Manhwa, manhhua</p>
+                                                <p class="body-infos__about-box-info-text"><strong>Thể loại:
+                                                    </strong>Action, Live Action, Manhwa, manhhua</p>
+                                            </div>
+                                        </div>
+                                        <p class="body-infos__about-bottom">Áp đảo giới quý tộc,
+                                            pháp sư mạnh nhất từ ​​khu ổ chuột !! Ars vốn là một thằng ăn cắp v
+                                            ặt trong khu ổ chuột. Và được nhận nuôi để trở thành sát thủ. Ở tuổi
+                                            15, Ars được khuyên nên đi học để đủ tiêu chuẩn trở thành "Pháp sư". Vừa
+                                            bước vào cổng trường, là sự xuất hiện của những quý tộc có trình độ
+                                            không bằng một cái móng tay của Ars, người đã vượt qua kỳ kiểm tra đầu v
+                                            ào với khả năng vượt trội, bắt đầu một cuộc sống khác thường .Là học sinh
+                                            vào ban ngày và một sát thủ vào ban đêm !!</p>
+
+                                    </div>
+                                </div>
+                                <ul>
+                                    <li class="body-infos__chappter flex">
+                                        <p class="body-infos__chap flex-1">Chapter 123</p>
+                                        <p class="body-infos__timechap flex-1">7 phút trước</p>
+                                    </li>
+                                    <li class="body-infos__chappter flex">
+                                        <p class="body-infos__chap flex-1">Chapter 123</p>
+                                        <p class="body-infos__timechap flex-1">7 phút trước</p>
+                                    </li>
+                                    <li class="body-infos__chappter flex">
+                                        <p class="body-infos__chap flex-1">Chapter 123</p>
+                                        <p class="body-infos__timechap flex-1">7 phút trước</p>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="body-left__items c-6 m-3 l-3">
+                            <div class="body-left__imgs">
+                                <img src="./assets/img/item-14.jpg" class="body-left__img">
+                                <div class="body-left__likes flex">
+                                    <p class="body-left__like"><i class="fas fa-eye"></i>7.161.734</p>
+                                    <p class="body-left__like"><i class="fas fa-comment"></i>1.458<i
+                                            class="fas fa-heart"></i></p>
+                                </div>
+                            </div>
+                            <div class="body-left__infos">
+                                <h3 class="body-infos__box-title">
+                                    <a href="#" class="body-infos__title">Nghịch chuyển tiên đồ</a>
+                                </h3>
+                                <div class="body-infos__about">
+                                    <div class="body-infos__about-items">
+                                        <h3 class="body-infos__title">Nghịch chuyển tiên đồ Nghịch chuyển tiên đồ Nghịch
+                                            chuyển tiên đồ Nghịch chuyển tiên đồ Nghịch chuyển tiên đồ Nghịch chuyển
+                                            tiên đồ Nghịch chuyển tiên đồ</h3>
+                                        <div class="body-infos__about-box flex">
+                                            <img src="./assets/img/item-14.jpg" class="body-left__img">
+                                            <div class="body-infos__about-box-info flex-1">
+                                                <p class="body-infos__about-box-info-text"><strong>Thể loại:
+                                                    </strong>Action, Live Action, Manhwa, manhhua</p>
+                                                <p class="body-infos__about-box-info-text"><strong>Thể loại:
+                                                    </strong>Action, Live Action, Manhwa, manhhua</p>
+                                                <p class="body-infos__about-box-info-text"><strong>Thể loại:
+                                                    </strong>Action, Live Action, Manhwa, manhhua</p>
+                                                <p class="body-infos__about-box-info-text"><strong>Thể loại:
+                                                    </strong>Action, Live Action, Manhwa, manhhua</p>
+                                                <p class="body-infos__about-box-info-text"><strong>Thể loại:
+                                                    </strong>Action, Live Action, Manhwa, manhhua</p>
+                                            </div>
+                                        </div>
+                                        <p class="body-infos__about-bottom">Áp đảo giới quý tộc,
+                                            pháp sư mạnh nhất từ ​​khu ổ chuột !! Ars vốn là một thằng ăn cắp v
+                                            ặt trong khu ổ chuột. Và được nhận nuôi để trở thành sát thủ. Ở tuổi
+                                            15, Ars được khuyên nên đi học để đủ tiêu chuẩn trở thành "Pháp sư". Vừa
+                                            bước vào cổng trường, là sự xuất hiện của những quý tộc có trình độ
+                                            không bằng một cái móng tay của Ars, người đã vượt qua kỳ kiểm tra đầu v
+                                            ào với khả năng vượt trội, bắt đầu một cuộc sống khác thường .Là học sinh
+                                            vào ban ngày và một sát thủ vào ban đêm !!</p>
+
+                                    </div>
+                                </div>
+                                <ul>
+                                    <li class="body-infos__chappter flex">
+                                        <p class="body-infos__chap flex-1">Chapter 123</p>
+                                        <p class="body-infos__timechap flex-1">7 phút trước</p>
+                                    </li>
+                                    <li class="body-infos__chappter flex">
+                                        <p class="body-infos__chap flex-1">Chapter 123</p>
+                                        <p class="body-infos__timechap flex-1">7 phút trước</p>
+                                    </li>
+                                    <li class="body-infos__chappter flex">
+                                        <p class="body-infos__chap flex-1">Chapter 123</p>
+                                        <p class="body-infos__timechap flex-1">7 phút trước</p>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="body-left__items c-6 m-3 l-3">
+                            <div class="body-left__imgs">
+                                <img src="./assets/img/item-15.jpg" class="body-left__img">
+                                <div class="body-left__likes flex">
+                                    <p class="body-left__like"><i class="fas fa-eye"></i>7.161.734</p>
+                                    <p class="body-left__like"><i class="fas fa-comment"></i>1.458<i
+                                            class="fas fa-heart"></i></p>
+                                </div>
+                            </div>
+                            <div class="body-left__infos">
+                                <h3 class="body-infos__box-title">
+                                    <a href="#" class="body-infos__title">Nghịch chuyển tiên đồ</a>
+                                </h3>
+                                <div class="body-infos__about">
+                                    <div class="body-infos__about-items">
+                                        <h3 class="body-infos__title">Nghịch chuyển tiên đồ Nghịch chuyển tiên đồ Nghịch
+                                            chuyển tiên đồ Nghịch chuyển tiên đồ Nghịch chuyển tiên đồ Nghịch chuyển
+                                            tiên đồ Nghịch chuyển tiên đồ</h3>
+                                        <div class="body-infos__about-box flex">
+                                            <img src="./assets/img/item-15.jpg" class="body-left__img">
+                                            <div class="body-infos__about-box-info flex-1">
+                                                <p class="body-infos__about-box-info-text"><strong>Thể loại:
+                                                    </strong>Action, Live Action, Manhwa, manhhua</p>
+                                                <p class="body-infos__about-box-info-text"><strong>Thể loại:
+                                                    </strong>Action, Live Action, Manhwa, manhhua</p>
+                                                <p class="body-infos__about-box-info-text"><strong>Thể loại:
+                                                    </strong>Action, Live Action, Manhwa, manhhua</p>
+                                                <p class="body-infos__about-box-info-text"><strong>Thể loại:
+                                                    </strong>Action, Live Action, Manhwa, manhhua</p>
+                                                <p class="body-infos__about-box-info-text"><strong>Thể loại:
+                                                    </strong>Action, Live Action, Manhwa, manhhua</p>
+                                            </div>
+                                        </div>
+                                        <p class="body-infos__about-bottom">Áp đảo giới quý tộc,
+                                            pháp sư mạnh nhất từ ​​khu ổ chuột !! Ars vốn là một thằng ăn cắp v
+                                            ặt trong khu ổ chuột. Và được nhận nuôi để trở thành sát thủ. Ở tuổi
+                                            15, Ars được khuyên nên đi học để đủ tiêu chuẩn trở thành "Pháp sư". Vừa
+                                            bước vào cổng trường, là sự xuất hiện của những quý tộc có trình độ
+                                            không bằng một cái móng tay của Ars, người đã vượt qua kỳ kiểm tra đầu v
+                                            ào với khả năng vượt trội, bắt đầu một cuộc sống khác thường .Là học sinh
+                                            vào ban ngày và một sát thủ vào ban đêm !!</p>
+
+                                    </div>
+                                </div>
+                                <ul>
+                                    <li class="body-infos__chappter flex">
+                                        <p class="body-infos__chap flex-1">Chapter 123</p>
+                                        <p class="body-infos__timechap flex-1">7 phút trước</p>
+                                    </li>
+                                    <li class="body-infos__chappter flex">
+                                        <p class="body-infos__chap flex-1">Chapter 123</p>
+                                        <p class="body-infos__timechap flex-1">7 phút trước</p>
+                                    </li>
+                                    <li class="body-infos__chappter flex">
+                                        <p class="body-infos__chap flex-1">Chapter 123</p>
+                                        <p class="body-infos__timechap flex-1">7 phút trước</p>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+
+
+                    </div>
+
+                    <div class="wapper-body-left__page">
+                        <ul>
+                            <li class="wapper-body-page__items">
+                                <a href="#" class="wapper-body-page__link active">1</a>
+                            </li>
+                            <li class="wapper-body-page__items">
+                                <a href="#" class="wapper-body-page__link">2</a>
+                            </li>
+                            <li class="wapper-body-page__items"></li>
+                                <a href="#" class="wapper-body-page__link">3</a>
+                            </li>
+                            <li class="wapper-body-page__items">
+                                <a href="#" class="wapper-body-page__link">4</a>
+                            </li>
+                            <li class="wapper-body-page__items">
+                                <a href="#" class="wapper-body-page__link">5</a>
+                            </li>
+                            <li class="wapper-body-page__items">
+                                <a href="#" class="wapper-body-page__link">90</a>
+                            </li>
+                            <li class="wapper-body-page__items">
+                                <a href="#" class="wapper-body-page__link">180</a>
+                            </li>
+                            <li class="wapper-body-page__items">
+                                <a href="#" class="wapper-body-page__link">270</a>
+                            </li>
+                            <li class="wapper-body-page__items">
+                                <a href="#" class="wapper-body-page__link">360</a>
+                            </li>
+                            <li class="wapper-body-page__items">
+                                <a href="#" class="wapper-body-page__link">420</a>
+                            </li>
+                            <li class="wapper-body-page__items">
+                                <a href="#" class="wapper-body-page__link">></a>
+                            </li>
+                            <li class="wapper-body-page__items">
+                                <a href="#" class="wapper-body-page__link">>></a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="wapper-body__right l-4 m-12 c-12">
+                    <div class="body-right__top">
+                        <div class="body-right__listtop flex">
+                            <a href="#" class="body-listtop__top active flex-1">Top tháng</a>
+                            <a href="#" class="body-listtop__top flex-1">Top tuần</a>
+                            <a href="#" class="body-listtop__top flex-1">Top ngày</a>
+                        </div>
+                        <div class="body-right__list">
+
+                            <div class="body-list__items flex">
+                                <span class="body-list__number rank-1">01</span>
+                                <a href="#" class="body-list__imgs">
+                                    <img src="./assets/img/item-1.jpg" class="body-list__img">
+                                </a>
+                                <div class="body-list__info flex-1">
+                                    <a href="#" class="body-list-info__title">Phi thiên ngoại truyện</a>
+                                    <div class="body-list-info__chaplike flex">
+                                        <a href="#" class="body-list-info__chap">Chapter 148.1</a>
+                                        <p class="body-list-info__like"><i class="fas fa-eye"></i> 10.671.66</p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="body-list__items flex">
+                                <span class="body-list__number rank-2">02</span>
+                                <a href="#" class="body-list__imgs">
+                                    <img src="./assets/img/item-9.jpg" class="body-list__img">
+                                </a>
+                                <div class="body-list__info flex-1">
+                                    <a href="#" class="body-list-info__title">Hệt Như Hàn Quang Gặp Nắng Gắt</a>
+                                    <div class="body-list-info__chaplike flex">
+                                        <a href="#" class="body-list-info__chap">Chapter 148.1</a>
+                                        <p class="body-list-info__like"><i class="fas fa-eye"></i> 10.671.66</p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="body-list__items flex">
+                                <span class="body-list__number rank-3">03</span>
+                                <a href="#" class="body-list__imgs">
+                                    <img src="./assets/img/item-7.jpg" class="body-list__img">
+                                </a>
+                                <div class="body-list__info flex-1">
+                                    <a href="#" class="body-list-info__title">Thiên sinh cổ mộ ung hàn truyện ký</a>
+                                    <div class="body-list-info__chaplike flex">
+                                        <a href="#" class="body-list-info__chap">Chapter 148.1</a>
+                                        <p class="body-list-info__like"><i class="fas fa-eye"></i> 10.671.66</p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="body-list__items flex">
+                                <span class="body-list__number">04</span>
+                                <a href="#" class="body-list__imgs">
+                                    <img src="./assets/img/item-8.jpg" class="body-list__img">
+                                </a>
+                                <div class="body-list__info flex-1">
+                                    <a href="#" class="body-list-info__title">Ma du ký</a>
+                                    <div class="body-list-info__chaplike flex">
+                                        <a href="#" class="body-list-info__chap">Chapter 148.1</a>
+                                        <p class="body-list-info__like"><i class="fas fa-eye"></i> 10.671.66</p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="body-list__items flex">
+                                <span class="body-list__number">05</span>
+                                <a href="#" class="body-list__imgs">
+                                    <img src="./assets/img/item-1.jpg" class="body-list__img">
+                                </a>
+                                <div class="body-list__info flex-1">
+                                    <a href="#" class="body-list-info__title">Hữu thần cơ đắc thọ</a>
+                                    <div class="body-list-info__chaplike flex">
+                                        <a href="#" class="body-list-info__chap">Chapter 148.1</a>
+                                        <p class="body-list-info__like"><i class="fas fa-eye"></i> 10.671.66</p>
+                                    </div>
+                                </div>
+                            </div>
+
+
+
+
+                        </div>
+
+                    </div>
+
+                    <div class="body-right__comments">
+                        <div class="body-comment__container">
+                            <h2 class="body-comment__title">Bình luận mới</h2>
+                            <ul>
+                                <li class="body-comment__items">
+                                    <a href="#" class="body-comment__link">Nhất hoán giang hồ</a>
+                                    <div class="body-comment__user flex">
+                                        <img src="./assets/img/user.png" class="body-comment__user-img">
+                                        <div class="body-comment__user-info">
+                                            <div class="body-comment__user-names flex">
+                                                <p class="body-comment__user-name margin-padding-0">Hênh hoàng</p>
+                                                <p class="body-comment__user-time margin-padding-0"><i
+                                                        class="far fa-clock"></i> 7 giờ trước</p>
+                                            </div>
+                                            <p class="body-comment__user-comment margin-padding-0">Chap 20 ea lâu rồi
+                                                mà h nhóm này ms có</p>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li class="body-comment__items">
+                                    <a href="#" class="body-comment__link">Nhất hoán giang hồ</a>
+                                    <div class="body-comment__user flex">
+                                        <img src="./assets/img/user.png" class="body-comment__user-img">
+                                        <div class="body-comment__user-info">
+                                            <div class="body-comment__user-names flex">
+                                                <p class="body-comment__user-name margin-padding-0">Hênh hoàng</p>
+                                                <p class="body-comment__user-time margin-padding-0"><i
+                                                        class="far fa-clock"></i> 7 giờ trước</p>
+                                            </div>
+                                            <p class="body-comment__user-comment margin-padding-0">Chap 20 ea lâu rồi
+                                                mà h nhóm này ms có</p>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li class="body-comment__items">
+                                    <a href="#" class="body-comment__link">Nhất hoán giang hồ</a>
+                                    <div class="body-comment__user flex">
+                                        <img src="./assets/img/user.png" class="body-comment__user-img">
+                                        <div class="body-comment__user-info">
+                                            <div class="body-comment__user-names flex">
+                                                <p class="body-comment__user-name margin-padding-0">Hênh hoàng</p>
+                                                <p class="body-comment__user-time margin-padding-0"><i
+                                                        class="far fa-clock"></i> 7 giờ trước</p>
+                                            </div>
+                                            <p class="body-comment__user-comment margin-padding-0">Chap 20 ea lâu rồi
+                                                mà h nhóm này ms có</p>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li class="body-comment__items">
+                                    <a href="#" class="body-comment__link">Nhất hoán giang hồ</a>
+                                    <div class="body-comment__user flex">
+                                        <img src="./assets/img/user.png" class="body-comment__user-img">
+                                        <div class="body-comment__user-info">
+                                            <div class="body-comment__user-names flex">
+                                                <p class="body-comment__user-name margin-padding-0">Hênh hoàng</p>
+                                                <p class="body-comment__user-time margin-padding-0"><i
+                                                        class="far fa-clock"></i> 7 giờ trước</p>
+                                            </div>
+                                            <p class="body-comment__user-comment margin-padding-0">Chap 20 ea lâu rồi
+                                                mà h nhóm này ms có</p>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li class="body-comment__items">
+                                    <a href="#" class="body-comment__link">Nhất hoán giang hồ</a>
+                                    <div class="body-comment__user flex">
+                                        <img src="./assets/img/user.png" class="body-comment__user-img">
+                                        <div class="body-comment__user-info">
+                                            <div class="body-comment__user-names flex">
+                                                <p class="body-comment__user-name margin-padding-0">Hênh hoàng</p>
+                                                <p class="body-comment__user-time margin-padding-0"><i
+                                                        class="far fa-clock"></i> 7 giờ trước</p>
+                                            </div>
+                                            <p class="body-comment__user-comment margin-padding-0">Chap 20 ea lâu rồi
+                                                mà h nhóm này ms có</p>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li class="body-comment__items">
+                                    <a href="#" class="body-comment__link">Nhất hoán giang hồ</a>
+                                    <div class="body-comment__user flex">
+                                        <img src="./assets/img/user.png" class="body-comment__user-img">
+                                        <div class="body-comment__user-info">
+                                            <div class="body-comment__user-names flex">
+                                                <p class="body-comment__user-name margin-padding-0">Hênh hoàng</p>
+                                                <p class="body-comment__user-time margin-padding-0"><i
+                                                        class="far fa-clock"></i> 7 giờ trước</p>
+                                            </div>
+                                            <p class="body-comment__user-comment margin-padding-0">Chap 20 ea lâu rồi
+                                                mà h nhóm này ms có</p>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li class="body-comment__items">
+                                    <a href="#" class="body-comment__link">Nhất hoán giang hồ</a>
+                                    <div class="body-comment__user flex">
+                                        <img src="./assets/img/user.png" class="body-comment__user-img">
+                                        <div class="body-comment__user-info">
+                                            <div class="body-comment__user-names flex">
+                                                <p class="body-comment__user-name margin-padding-0">Hênh hoàng</p>
+                                                <p class="body-comment__user-time margin-padding-0"><i
+                                                        class="far fa-clock"></i> 7 giờ trước</p>
+                                            </div>
+                                            <p class="body-comment__user-comment margin-padding-0">Chap 20 ea lâu rồi
+                                                mà h nhóm này ms có</p>
+                                        </div>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="wapper__api">
+                <ul>
+                    <li class="wapper__api-items">
+                        <a href="#" class="wapper__api-items-link">Truyen tranh</a>
+                    </li>
+                    <li class="wapper__api-items">
+                        <a href="#" class="wapper__api-items-link">Truyen tranh</a>
+                    </li>
+                    <li class="wapper__api-items">
+                        <a href="#" class="wapper__api-items-link">Truyen tranh</a>
+                    </li>
+                    <li class="wapper__api-items">
+                        <a href="#" class="wapper__api-items-link">Truyen tranh online</a>
+                    </li>
+                    <li class="wapper__api-items">
+                        <a href="#" class="wapper__api-items-link">Doc truyen tranh</a>
+                    </li>
+                    <li class="wapper__api-items">
+                        <a href="#" class="wapper__api-items-link">Đọc truyện tranh</a>
+                    </li>
+                </ul>
+            </div>
+
+
+
+        </div>
+
+        <div class="footer">
+            <div class="footer__container container">
+                <div class="footer__row row">
+                    <div class="footer__left l-4">
+                        <img src="./assets/img/logo.png" class="footer-left__img">
+                        <div id="fb-root"></div>
+                        <script async defer crossorigin="anonymous" src="https://connect.facebook.net/vi_VN/sdk.js#xfbml=1&version=v9.0" nonce="hu5Flmx5"></script>
+                        <div class="fb-page" data-href="https://www.facebook.com/nettruyen/" data-tabs="timeline" data-width="300" data-height="70" data-small-header="true" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true"><blockquote cite="https://www.facebook.com/nettruyen/" class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/nettruyen/">NetTruyen.com - Truyện Tranh Online</a></blockquote></div>
+                    </div>
+
+                    <div class="footer__right l-8">
+
+                        <h2 class="footer-right__title">Thể loại</h2>
+                        <ul>
+                            <li class="footer-right__items">
+                                <a href="#">Chuyển sinh</a>
+                            </li>
+                            <li class="footer-right__items">
+                                <a href="#">Chuyển sinh</a>
+                            </li>
+                            <li class="footer-right__items">
+                                <a href="#">Chuyển sinh</a>
+                            </li>
+                            <li class="footer-right__items">
+                                <a href="#">Chuyển sinh</a>
+                            </li>
+                            <li class="footer-right__items">
+                                <a href="#">Chuyển sinh</a>
+                            </li>
+                            <li class="footer-right__items">
+                                <a href="#">Chuyển sinh</a>
+                            </li>
+                            <li class="footer-right__items">
+                                <a href="#">Chuyển sinh</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="croll">
+            <i class="fas fa-chevron-up"></i>
+        </div>
+
+
+    </div>
+
+    <script src="./assets/js/app.js"></script>
+    <script src="./assets/js/main.js"></script>
+    <script src="./assets/js/slide.js"></script>
+
+</body>
+
+</html>

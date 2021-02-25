@@ -1,0 +1,99 @@
+/* Mobile & Tablet */
+@media (max-width: 1023px) {
+
+    .hide-on-moblie-tablet {
+        display: none;
+    }
+
+    .header-top-mobile__bars {
+        display: block;
+    }
+
+    .wapper {
+        margin: 0;
+    }
+
+    .header-top__container {
+        justify-content: space-between;
+    }
+
+    .header-bottom__category {
+        justify-content: center;
+    }
+
+    .header-bottom__downlist {
+        left: 50%;
+        transform: translateX(-50%);
+    }
+
+}
+@media (min-width: 1113px) {
+
+    .container {
+        width: 1030px;
+    }
+
+    .pc-low {
+        display: none;
+    }
+
+
+}
+
+/* Tablet */
+@media (min-width: 740px) and (max-width: 1023px) {
+
+    .hide-on-tablet {
+        display: none;
+    }
+}
+
+/* Moblie */
+@media (max-width: 720px) {
+
+    .hide-on-moblie {
+        display: none;
+    }
+
+    .header-top__container {
+        justify-content: flex-start;
+    } 
+
+    .header-top-mobile__bars {
+        margin-left: auto;
+    }
+
+    .header-top__notification {
+        margin-left: 25px;
+    }
+
+    .wapper-slides__items {
+        height: 200px;
+    }
+    
+    .wapper-slides__title {
+        font-size: 1.2rem;
+    }
+
+    .wapper-slides__miniBox {
+        padding: 3px 0;
+    }
+
+    .wapper-body__right {
+        padding: 0;
+    }
+
+    .wapper-body-left__page {
+        text-align: left;
+    }
+
+    .wapper__api {
+        margin-top: 30px;
+    }
+
+    .body-left__like {
+
+    }
+
+    
+}
